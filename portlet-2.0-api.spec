@@ -3,8 +3,9 @@
 %global pkg_name portlet-api_%{api_version}_spec
 Name:          portlet-2.0-api
 Version:       1.0
-Release:       7.0%{?dist}
+Release:       7.1
 Summary:       Java Portlet Specification V2.0
+Group:		Development/Java
 License:       ASL 2.0
 Url:           http://portals.apache.org/
 # svn export http://svn.apache.org/repos/asf/portals/portlet-spec/tags/portlet-api_2.0_spec-1.0 portlet-2.0-api-1.0
@@ -12,11 +13,11 @@ Url:           http://portals.apache.org/
 Source0:       %{name}-%{version}-src-svn.tar.gz
 
 BuildRequires: java-devel
-BuildRequires: mvn(org.apache.portals:portals-pom)
+BuildRequires: mvn(org.apache.portals:portals-pom:pom:)
 BuildRequires: mvn(org.apache.tomcat:tomcat-servlet-api)
 BuildRequires: maven-local
 BuildRequires: maven-plugin-bundle
-Requires:      mvn(org.apache.portals:portals-pom)
+Requires:      mvn(org.apache.portals:portals-pom:pom:)
 BuildArch:     noarch
 
 %description

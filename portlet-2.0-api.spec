@@ -3,7 +3,7 @@
 %global pkg_name portlet-api_%{api_version}_spec
 Name:          portlet-2.0-api
 Version:       1.0
-Release:       7.1
+Release:       7.2
 Summary:       Java Portlet Specification V2.0
 Group:		Development/Java
 License:       ASL 2.0

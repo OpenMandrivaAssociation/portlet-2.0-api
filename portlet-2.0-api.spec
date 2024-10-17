@@ -7,7 +7,7 @@ Release:       7.3
 Summary:       Java Portlet Specification V2.0
 Group:		Development/Java
 License:       ASL 2.0
-Url:           http://portals.apache.org/
+Url:           https://portals.apache.org/
 # svn export http://svn.apache.org/repos/asf/portals/portlet-spec/tags/portlet-api_2.0_spec-1.0 portlet-2.0-api-1.0
 # tar czf portlet-2.0-api-1.0-src-svn.tar.gz portlet-2.0-api-1.0
 Source0:       %{name}-%{version}-src-svn.tar.gz
